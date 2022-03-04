@@ -1,0 +1,13 @@
+ 
+/*
+* This class helps to generate Exponential value
+* For Given the base variable and exponent variable 
+* Author -Durgadevi Dated 3-Mar-2022
+*/
+public class xexponenty {
+
+    public static int getExponentialValue(int base, int expon ) {
+       return (int) Math.pow(base, expon );
+    }
+
+}
